@@ -1,0 +1,27 @@
+{
+  "name": "01-template-bislite",
+  "version": "1.0.0",
+  "description": "Web page template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedyashev/template-bislite.git"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "Fedyashev Andrei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedyashev/template-bislite/issues"
+  },
+  "homepage": "https://github.com/fedyashev/template-bislite#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3"
+  }
+}
