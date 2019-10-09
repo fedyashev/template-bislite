@@ -431,6 +431,16 @@ body > * {
     z-index: -1;
 }
 
+.slide--text {
+    position: absolute;
+    width: 50%;
+    top: 20%;
+    left: 5%;
+    color: #FFFFFF;
+    font-size: large;
+    font-weight: bold;
+}
+
 .slide__active {
     z-index: 1;
 }
@@ -520,6 +530,10 @@ body > * {
 
 .service--link a {
     color: #2aacc8;
+}
+
+.service--link a:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 575.98px) {
@@ -962,6 +976,10 @@ body > * {
     font-weight: bold;
     margin-left: 24px;
     color: #000000;
+}
+
+.download--button:hover span {
+    color: #FFFFFF;
 }
 
 @media (max-width: 575.98px) {
