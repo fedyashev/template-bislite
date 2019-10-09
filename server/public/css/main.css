@@ -1131,8 +1131,8 @@ body > * {
 @media (max-width: 575.98px) {
     .footer--about-us {
         /* flex: 1 120px; */
-        flex: 100%;
-        margin-right: 0;
+        flex: 45%;
+        margin-right: 1rem;
         margin-bottom: 2rem;
         order: 1;
     }
@@ -1140,19 +1140,20 @@ body > * {
     .footer--explore {
         flex: 1 100px;
         /* flex: 45%; */
-        order: 2;
+        margin-right: 1rem;
+        order: 3;
     }
 
     .footer--browse {
         flex: 1 100px;
         /* flex: 45%; */
-        order: 3;
+        order: 4;
     }
 
     .footer--contact {
-        flex: 0 145px;
+        flex: 1 45%;
         /* flex: 45%; */
-        order: 4;
+        order: 2;
     }
 
     .footer--connect {
@@ -1162,7 +1163,8 @@ body > * {
     }
 
     .footer--connect .footer--info-title {
-        text-align: center;
+        display: none;
+        /* text-align: center; */
     }
 
     .footer--rights {
@@ -1172,6 +1174,7 @@ body > * {
 
     .footer--rights .logo {
         margin-left: 1rem;
+        align-self: flex-end;
     }
 }
 
@@ -1199,15 +1202,16 @@ body > * {
     }
 
     .footer--connect .footer--info-title {
-        text-align: center;
+        /* text-align: center; */
+        display: none;
     }
 
     .social--list {
-        justify-content: center;
+        /* justify-content: center; */
     }
 
     .social {
-        margin: 0 1rem;
+        margin: 0 0rem;
     }
 
     .footer--rights {
@@ -1216,6 +1220,7 @@ body > * {
 
     .footer--rights .logo {
         margin-left: 1rem;
+        align-self: flex-end;
     }
 }
 
